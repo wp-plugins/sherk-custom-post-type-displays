@@ -42,20 +42,20 @@ for more detailed instructions.**
 
 <h3>Display Sherk Custom Post Type Displays using Shortcode</h3>
 
-Shortcode for Sherk Custom Post Type Displays is in the format of
-**[sherkcptdisplays post_type="post" total_items=10 display_type="title_only" orderby="random"]**
+Shortcode for Sherk Custom Post Type Displays is in the format of   
+**[sherkcptdisplays post_type="post" total_items=10 display_type="title_only" orderby="random"]**   
 Copy the shortcode, paste it to the content text editor and update the values of your shortcode parameters depends on what you need.
 
 
 <h3>Parameters Available</h3>
 
 **title**   
-Header title of your list of custom post type    
+*Header title of your list of custom post type*    
 **default:**  ''    
 **option:**  string     
    
 **post_type**    
-Post type of the items to displayed in list (depends on your website, list below are automatically updated)    
+Post type of the items to displayed in list (depends on your website, list below are automatically updated)*    
 **default:**  post    
 **option:**  screcipe    
 **option:**  sherk_banners    
@@ -64,23 +64,23 @@ Post type of the items to displayed in list (depends on your website, list below
 **option:**  post     
 
 **display_type**    
-Option on what elements to be shown on your list    
-****default:** **  title_only    
+*Option on what elements to be shown on your list*    
+**default:** title_only    
 **option:**  title_only (Titles are only shown on the list with their links)    
 **option:**  featured_image (Titles and Featured Image are only shown on the list with their links)    
 **option:**  title_and_teaser (Titles and teasers are only shown on the list with their links)    
 **option:**  all (All are shown from Titles, teasers and featured images on the list with their links)     
    
 **total_items**    
-Total number of items shown on the list    
+*Total number of items shown on the list*    
 **default:**  5    
 **option:**  integer     
    
 **orderby**    
-The way the list is ordered    
+*The way the list is ordered*    
 **default:**  random    
 **option:**  random (List are ordered in random)    
-****option:** **  latest (List are ordered from latest item)     
+**option:**  latest (List are ordered from latest item)     
 
 
 == Frequently Asked Questions ==
