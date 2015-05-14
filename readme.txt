@@ -45,44 +45,77 @@ Display Sherk Custom Post Type Displays using Shortcode
 Shortcode for Sherk Custom Post Type Displays is in the format of
 [sherkcptdisplays post_type="post" total_items=10 display_type="title_only" orderby="random"]
 Copy the shortcode, paste it to the content text editor and update the values of your shortcode parameters depends on what you need.
+
+
 Parameters Available
 
 title
+
 Header title of your list of custom post type
+
 default: ''
+
 options: string
 
 
+
 post_type
+
 Post type of the items to displayed in list (depends on your website, list below are automatically updated)
+
 default: post
-options: acf
-options: wpcf7_contact_form
+
 options: screcipe
+
 options: sherk_banners
+
 options: sherk_skills
+
 options: book
-options: smart_todo
+
 options: post
 
+
+
 display_type
+
 Option on what elements to be shown on your list
+
 default: title_only
+
 options: title_only (Titles are only shown on the list with their links)
+
 options: featured_image (Titles and Featured Image are only shown on the list with their links)
+
 options: title_and_teaser (Titles and teasers are only shown on the list with their links)
+
 options: all (All are shown from Titles, teasers and featured images on the list with their links)
 
+
+
+
 total_items
+
 Total number of items shown on the list
+
 default: 5
+
 options: integer
 
+
+
 orderby
+
 The way the list is ordered
+
 default: random
+
 options: random (List are ordered in random)
+
 options: latest (List are ordered from latest item)
+
+
+
 
 == Frequently Asked Questions ==
 
@@ -90,7 +123,7 @@ options: latest (List are ordered from latest item)
 Contact me through email at contact@sherkspear.com or at http://sherkspear.com/contact.
 
 
-= Screenshots ==
+== Screenshots ==
 
 1. Sherk Custom Post Type Displays How To Use menu at Dashboard-> Tools
 2. Dashboard -> Appearance -> Widgets -> Sherk Custom Post Type Display
