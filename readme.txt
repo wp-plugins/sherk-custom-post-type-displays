@@ -49,38 +49,38 @@ Copy the shortcode, paste it to the content text editor and update the values of
 
 <h3>Parameters Available</h3>
 
-**title** 
-Header title of your list of custom post type 
-default: '' 
-options: string  
+**title**   
+Header title of your list of custom post type    
+**default:**  ''    
+**option:**  string     
+   
+**post_type**    
+Post type of the items to displayed in list (depends on your website, list below are automatically updated)    
+**default:**  post    
+**option:**  screcipe    
+**option:**  sherk_banners    
+**option:**  sherk_skills    
+**option:**  book    
+**option:**  post     
 
-**post_type** 
-Post type of the items to displayed in list (depends on your website, list below are automatically updated) 
-default: post 
-option: screcipe 
-option: sherk_banners 
-option: sherk_skills 
-option: book 
-option: post  
-
-**display_type** 
-Option on what elements to be shown on your list 
-default: title_only 
-options: title_only (Titles are only shown on the list with their links) 
-options: featured_image (Titles and Featured Image are only shown on the list with their links) 
-options: title_and_teaser (Titles and teasers are only shown on the list with their links) 
-options: all (All are shown from Titles, teasers and featured images on the list with their links)  
-
-**total_items** 
-Total number of items shown on the list 
-default: 5 
-options: integer  
-
-**orderby** 
-The way the list is ordered 
-default: random 
-option: random (List are ordered in random) 
-option: latest (List are ordered from latest item)  
+**display_type**    
+Option on what elements to be shown on your list    
+****default:** **  title_only    
+**option:**  title_only (Titles are only shown on the list with their links)    
+**option:**  featured_image (Titles and Featured Image are only shown on the list with their links)    
+**option:**  title_and_teaser (Titles and teasers are only shown on the list with their links)    
+**option:**  all (All are shown from Titles, teasers and featured images on the list with their links)     
+   
+**total_items**    
+Total number of items shown on the list    
+**default:**  5    
+**option:**  integer     
+   
+**orderby**    
+The way the list is ordered    
+**default:**  random    
+**option:**  random (List are ordered in random)    
+****option:** **  latest (List are ordered from latest item)     
 
 
 == Frequently Asked Questions ==
