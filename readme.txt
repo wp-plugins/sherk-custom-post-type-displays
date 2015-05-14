@@ -52,6 +52,7 @@ Header title of your list of custom post type
 default: ''
 options: string
 
+
 post_type
 Post type of the items to displayed in list (depends on your website, list below are automatically updated)
 default: post
@@ -89,15 +90,14 @@ options: latest (List are ordered from latest item)
 Contact me through email at contact@sherkspear.com or at http://sherkspear.com/contact.
 
 
-
-
-== Screenshots ==
+= Screenshots ==
 
 1. Sherk Custom Post Type Displays How To Use menu at Dashboard-> Tools
 2. Dashboard -> Appearance -> Widgets -> Sherk Custom Post Type Display
 3. Frontend result of the widget in list of custom post type items.
 4. Edit page with Sherk Custom Post Type shortcode.
 5. Frontend result of the shortcode.
+
 
 == Upgrade Notice ==
 
@@ -108,3 +108,7 @@ Contact me through email at contact@sherkspear.com or at http://sherkspear.com/c
 == Detailed Instructions ==
 After installation, check at Dashboard -> Tools -> Sherk CPT Displays (/wp-admin/tools.php?page=sherkcptdisplays_info)
 for more detailed instructions.
+
+
+
+
