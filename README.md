@@ -37,50 +37,50 @@ Plugin URI: <a href="http://www.sherkspear.com/portfolio-item/sherk-cptdisplays-
 3.	Configure your Sherk Custom Post Type Displays, add a title, select the post type, select the display type , select the way it's ordered and the number of items to be displayed.
 4.	Click Save button
 
-<b>After installed check at Dashboard -> Tools -> Sherk CPT Displays (/wp-admin/tools.php?page=sherkcptdisplays_info)
-for more detailed instructions.</b>
+**After installed check at Dashboard -> Tools -> Sherk CPT Displays (/wp-admin/tools.php?page=sherkcptdisplays_info)
+for more detailed instructions.**
 
 <h3>Display Sherk Custom Post Type Displays using Shortcode</h3>
 
 Shortcode for Sherk Custom Post Type Displays is in the format of
-<b>[sherkcptdisplays post_type="post" total_items=10 display_type="title_only" orderby="random"]</b>
+**[sherkcptdisplays post_type="post" total_items=10 display_type="title_only" orderby="random"]**
 Copy the shortcode, paste it to the content text editor and update the values of your shortcode parameters depends on what you need.
 
 
 <h3>Parameters Available</h3>
 
-<b>title</b><br/>
-Header title of your list of custom post type<br/>
-default: ''<br/>
-options: string<br/><br/>
+**title** 
+Header title of your list of custom post type 
+default: '' 
+options: string  
 
-<b>post_type</b><br/>
-Post type of the items to displayed in list (depends on your website, list below are automatically updated)<br/>
-default: post<br/>
-option: screcipe<br/>
-option: sherk_banners<br/>
-option: sherk_skills<br/>
-option: book<br/>
-option: post<br/><br/>
+**post_type** 
+Post type of the items to displayed in list (depends on your website, list below are automatically updated) 
+default: post 
+option: screcipe 
+option: sherk_banners 
+option: sherk_skills 
+option: book 
+option: post  
 
-<b>display_type</b><br/>
-Option on what elements to be shown on your list<br/>
-default: title_only<br/>
-options: title_only (Titles are only shown on the list with their links)<br/>
-options: featured_image (Titles and Featured Image are only shown on the list with their links)<br/>
-options: title_and_teaser (Titles and teasers are only shown on the list with their links)<br/>
-options: all (All are shown from Titles, teasers and featured images on the list with their links)<br/><br/>
+**display_type** 
+Option on what elements to be shown on your list 
+default: title_only 
+options: title_only (Titles are only shown on the list with their links) 
+options: featured_image (Titles and Featured Image are only shown on the list with their links) 
+options: title_and_teaser (Titles and teasers are only shown on the list with their links) 
+options: all (All are shown from Titles, teasers and featured images on the list with their links)  
 
-<b>total_items</b><br/>
-Total number of items shown on the list<br/>
-default: 5<br/>
-options: integer<br/><br/>
+**total_items** 
+Total number of items shown on the list 
+default: 5 
+options: integer  
 
-<b>orderby</b><br/>
-The way the list is ordered<br/>
-default: random<br/>
-option: random (List are ordered in random)<br/>
-option: latest (List are ordered from latest item)<br/><br/>
+**orderby** 
+The way the list is ordered 
+default: random 
+option: random (List are ordered in random) 
+option: latest (List are ordered from latest item)  
 
 
 == Frequently Asked Questions ==
