@@ -15,10 +15,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Display custom post type items available in your choice using widgets and shortcodes.
 From number of items, its order and elements to display. It's just too good to have that availability to add list of post types anywhere in your website.
 
-You can email me directly for any plugin request or personal modification such as styles and templates at <a mailto="contact@sherkspear.com">contact@sherkspear.com</a> or contact me at <a href="http://sherkspear.com/contact">http://sherkspear.com/contact</a>
+You can display items of custom post types of your choice almost anywhere in your website using the widget and shortcode. Display types available are Titles only with links, Titles and Featured Images with links, Titles and Teasers only with links and Display All. Order of display has also two choices either random or latest post.
+
+You can email me directly for any plugin request or personal modification such as styles and templates at <contact@sherkspear.com> or contact me at <http://sherkspear.com/contact>
 
 
-Plugin URI: <a href="http://www.sherkspear.com/portfolio-item/sherk-cptdisplays-wordpress-plugin/">http://www.sherkspear.com/portfolio-item/sherk-cptdisplays-wordpress-plugin/</a>
+Plugin URI: <http://www.sherkspear.com/portfolio-item/sherk-cptdisplays-wordpress-plugin/>    
+Demo Page: <http://www.sherkspear.com/blog/> *(Random Post and Recent ToDos sidebar added using widgets)*
 
 
 == Installation ==
@@ -105,5 +108,5 @@ Contact me through email at contact@sherkspear.com or at http://sherkspear.com/c
 
 
 == Detailed Instructions ==
-After installation, check at Dashboard -> Tools -> Sherk CPT Displays (/wp-admin/tools.php?page=sherkcptdisplays_info)
+**After installation, check at Dashboard -> Tools -> Sherk CPT Displays**     `(/wp-admin/tools.php?page=sherkcptdisplays_info)`   
 for more detailed instructions.
