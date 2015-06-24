@@ -4,7 +4,7 @@ Donate link: http://www.sherkspear.com/donate/
 Tags: widget, shortcode, custom post type , list post type, display post type, custom post types
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -102,6 +102,9 @@ Contact me through email at contact@sherkspear.com or at http://sherkspear.com/c
 
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Updated the shortcode display and post thumbnails sizes.
 
 = 1.0 =
 * An initial update with the features added.

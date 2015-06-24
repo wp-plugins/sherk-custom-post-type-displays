@@ -12,7 +12,8 @@ class SherkCPTDisplaysShortcode {
 				'post_type' =>'post', 	
 				'total_items' =>15, 	
 				'display_type' =>'title_only', 	
-				'orderby' => 'random'
+				'orderby' => 'random',
+				'width'=>300
 			), $atts );
 		/**Attributes**/	
 		$title = $shortcode_att['title']; 
@@ -38,7 +39,7 @@ class SherkCPTDisplaysShortcode {
 			$shortcodecontent.='<div class="item">';
 			$shortcodecontent.='<a href="'.get_the_permalink($post->ID).'">'.get_the_title($post->ID).'</a><br/>';
 			if($display_type=='featured_image' || $display_type=='all'){
-				$shortcodecontent.=get_the_post_thumbnail( $post->ID, 'thumbnail' ).'<br/>';
+				$shortcodecontent.=get_the_post_thumbnail( $post->ID,'post-thumbnail').'<br/>';
 			}
 			if($display_type=='title_and_teaser' || $display_type=='all'){
 				$shortcodecontent.=get_the_excerpt($post->ID).'<br/>';
@@ -49,7 +50,7 @@ class SherkCPTDisplaysShortcode {
 
 		$shortcodecontent.='</div>';
 		
-		echo $shortcodecontent;
+		return $shortcodecontent;
 	
 	}
 	
