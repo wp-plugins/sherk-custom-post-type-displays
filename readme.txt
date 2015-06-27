@@ -102,9 +102,11 @@ Contact me through email at contact@sherkspear.com or at http://sherkspear.com/c
 
 
 == Upgrade Notice ==
+= 1.2 =
+* Updated shortcode return templates and styling
 
 = 1.1 =
-* Updated the shortcode display and post thumbnails sizes.
+* Fix: ShortCode positioning.
 
 = 1.0 =
 * An initial update with the features added.

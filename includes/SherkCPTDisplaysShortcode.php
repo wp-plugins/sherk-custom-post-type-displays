@@ -36,8 +36,27 @@ class SherkCPTDisplaysShortcode {
 	
 		$myposts = get_posts( $args );
 		foreach ( $myposts as $post ) : setup_postdata( $post ); 
-			$shortcodecontent.='<div class="item">';
-			$shortcodecontent.='<a href="'.get_the_permalink($post->ID).'">'.get_the_title($post->ID).'</a><br/>';
+			$categories = get_the_category($post->ID);
+			$separator = ' , ';
+			$output = 'Topics: ';
+			if($categories){
+				foreach($categories as $category) {
+					$output .= '<a href="'.get_category_link( $category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name.'</a>'.$separator;
+				}
+				
+			}
+			$tags='';
+			$posttags = get_the_tags();
+			if ($posttags) {
+				foreach($posttags as $tag) {
+					$tags.=$tag->name . ' '; 
+				}
+			}
+			
+			$shortcodecontent.='<div class="post-item">';
+			$shortcodecontent.='<h3 class="post-title"><a href="'.get_the_permalink($post->ID).'">'. get_the_title($post->ID).'</a></h3><div class="post-meta"><p>'.get_the_time('F jS, Y').' , Posted in '. trim($output, $separator).'<br/>'.$tags.' '.'Written by: '.get_the_author_link().'</p></div>';
+			
+			
 			if($display_type=='featured_image' || $display_type=='all'){
 				$shortcodecontent.=get_the_post_thumbnail( $post->ID,'post-thumbnail').'<br/>';
 			}

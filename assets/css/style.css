@@ -1,0 +1,42 @@
+/*
+
+  _________.__                  __      _________
+ /   _____/|  |__   ___________|  | __ /   _____/_____   ____ _____ _______
+ \_____  \ |  |  \_/ __ \_  __ \  |/ / \_____  \\____ \_/ __ \\__  \\_  __ \
+ /        \|   Y  \  ___/|  | \/    <  /        \  |_> >  ___/ / __ \|  | \/
+/_______  /|___|  /\___  >__|  |__|_ \/_______  /   __/ \___  >____  /__|
+        \/      \/     \/           \/        \/|__|        \/     \/
+		
+	STYLES...	
+*/
+
+
+.cpt_shortcodecontent .post-item{
+	padding: 10px 0px 20px;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 10px;
+}
+
+.cpt_shortcodecontent .post-item h3.post-title a{
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+.cpt_shortcodecontent .post-item img{
+	float: left;
+	padding-right: 10px;
+	max-width:350px;
+	height:auto;
+}
+
+.cpt_shortcodecontent .post-item .post-meta{
+	float:left;
+	width:100%;
+}
+.cpt_shortcodecontent .post-item .post-meta a{
+	font-size:12px;
+	font-weight:bold;
+}
