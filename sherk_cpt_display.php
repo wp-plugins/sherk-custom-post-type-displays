@@ -3,7 +3,7 @@
 Plugin Name: Sherk Custom Post Type Displays
 Plugin URI: http://www.sherkspear.com/portfolio-item/sherk-cptdisplays-wordpress-plugin/
 Description: Display post and custom post type items available in your choice using widgets and shortcodes.
-Version: 1.2
+Version: 1.2.1
 Author: Sherwin Calims
 Author URI: http://www.sherkspear.com
 
